@@ -1,0 +1,27 @@
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+
+set showcmd
+set ruler
+set number
+set splitbelow
+set splitright
+
+colorscheme gruvbox
+set background=dark
+
+set ignorecase
+set smartcase
+
+set expandtab
+
+
+" Tell Vim which characters to show for expanded TABs,
+" trailing whitespace, and end-of-lines. VERY useful!
+if &listchars ==# 'eol:$'
+  set listchars=tab:>\ ,trail:-,extends:>,precedes:<,nbsp:+
+endif
+set list " Show problematic characters.
+
+" Also highlight all tabs and trailing whitespace characters.
+highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+match ExtraWhitespace /\s\+$\|\t/
