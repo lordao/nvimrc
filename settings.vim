@@ -6,13 +6,16 @@ set number
 set splitbelow
 set splitright
 
-colorscheme gruvbox
-set background=dark
+colorscheme solarized
+set background=light
 
 set ignorecase
 set smartcase
 
 set expandtab
+set shiftwidth=2
+set softtabstop=2
+set tabstop=2
 
 
 " Tell Vim which characters to show for expanded TABs,
@@ -23,5 +26,5 @@ endif
 set list " Show problematic characters.
 
 " Also highlight all tabs and trailing whitespace characters.
-highlight ExtraWhitespace ctermbg=darkgreen guibg=darkgreen
+highlight ExtraWhitespace ctermbg=darkred guibg=darkred
 match ExtraWhitespace /\s\+$\|\t/

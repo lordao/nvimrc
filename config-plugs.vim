@@ -1,3 +1,6 @@
+"  Deoplete
+let g:deoplete#enable_at_startup = 1
+
 "  Neomake
 autocmd! BufWritePost * Neomake
 
@@ -11,4 +14,3 @@ let g:airline_left_sep = ' '
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ' '
 let g:airline_right_alt_sep = '|'
-"let g:airline_theme= 'serene'
