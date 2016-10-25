@@ -25,5 +25,5 @@ Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'freeo/vim-kalisi'
-Plug 'frankier/neovim-colors-solarized-truecolor-only'
+Plug 'iCyMind/NeoSolarized'
 call plug#end()

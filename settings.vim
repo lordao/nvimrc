@@ -6,7 +6,7 @@ set number
 set splitbelow
 set splitright
 
-colorscheme solarized
+colorscheme NeoSolarized
 set background=light
 
 set ignorecase
