@@ -5,6 +5,7 @@ set ruler
 set number
 set splitbelow
 set splitright
+set undofile
 
 colorscheme NeoSolarized
 set background=light
@@ -13,9 +14,9 @@ set ignorecase
 set smartcase
 
 set expandtab
-set shiftwidth=2
-set softtabstop=2
-set tabstop=2
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
 
 
 " Tell Vim which characters to show for expanded TABs,
