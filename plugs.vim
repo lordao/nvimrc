@@ -14,6 +14,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'neomake/neomake'
 Plug 'easymotion/vim-easymotion'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-surround'
 
 " Fuzzy file finder
 if !executable('fzf')
