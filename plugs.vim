@@ -26,6 +26,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neco-vim'
 Plug 'zchee/deoplete-jedi'
 
+Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 
 Plug 'morhetz/gruvbox'
