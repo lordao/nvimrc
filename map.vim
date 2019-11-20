@@ -1,5 +1,6 @@
 let mapleader=","
-nnoremap <leader>r :call NumberToggle()<cr>
+nnoremap <silent> <leader>r :call NumberToggle()<cr>
+nnoremap <silent> <leader>b :call BackgroundToggle()<cr>
 nnoremap <silent> <leader>/ :nohlsearch<cr>
 
 nnoremap <silent> <leader>d :bdelete<CR>

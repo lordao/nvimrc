@@ -7,3 +7,11 @@ function! NumberToggle()
     set rnu
   endif
 endfunc
+
+function! BackgroundToggle()
+  if (&background == "dark")
+    set background=light
+  else
+    set background=dark
+  endif
+endfunc
