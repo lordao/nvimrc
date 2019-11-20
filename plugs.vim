@@ -29,7 +29,6 @@ Plug 'zchee/deoplete-jedi'
 Plug 'sheerun/vim-polyglot'
 Plug 'mattn/emmet-vim'
 
-Plug 'morhetz/gruvbox'
 Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'freeo/vim-kalisi'
