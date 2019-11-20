@@ -7,8 +7,13 @@ set splitbelow
 set splitright
 set undofile
 
-colorscheme NeoSolarized
-set background=light
+if $USER == "root"
+  set background=dark
+  colorscheme dracula
+else
+  set background=light
+  colorscheme NeoSolarized
+endif
 
 set ignorecase
 set smartcase
